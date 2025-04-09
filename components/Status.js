@@ -55,7 +55,7 @@ export default class Status extends React.Component {
               styles.bubble,
               {
                 opacity: this.state.opacity,
-                backgroundColor: isConnected ? 'green' : 'red',
+                backgroundColor: isConnected ? 'white' : 'red',
               },
             ]}
           >
